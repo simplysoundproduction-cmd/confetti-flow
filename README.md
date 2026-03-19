@@ -34,6 +34,43 @@ Confetti Flow is a sensory-first mobile Unity app focused on calming, tactile in
 - Verified first playable prototype loop in editor
 - Initialized local git repo and created initial commit
 
+## Development Checklist
+
+### Core Gameplay
+
+- [x] Balloon spawning
+- [x] Balloon tap-to-pop interaction
+- [x] Confetti burst and persistence
+- [x] Swipe interaction with confetti
+- [x] Tilt interaction with confetti drift
+- [x] Bottom color fill progression
+- [x] Minimal HUD (`Pause`, `Reset`, `Continue`, `Next`)
+
+### Feel & Visual Polish
+
+- [ ] Tune balloon rise/drift for calmer pacing
+- [ ] Tune confetti drag/lifetime for tactile flow
+- [ ] Improve palette cohesion across UI/world/fill
+- [ ] Add subtle transition polish between loops/scenes
+
+### Audio
+
+- [ ] Add soft pop SFX variations
+- [ ] Add low-volume ambient bed
+- [ ] Add volume controls in settings/HUD
+
+### Android
+
+- [ ] Build APK/AAB from `main`
+- [ ] Test on physical Android device
+- [ ] Profile FPS and memory on mid-range device
+
+### iOS (Mac Build Machine)
+
+- [ ] Install matching Unity LTS + iOS module on Mac
+- [ ] Open project and generate Xcode project
+- [ ] Run first signed build on physical iPhone
+
 ## Next Milestones
 
 ### Milestone 1 — Feel Polish
